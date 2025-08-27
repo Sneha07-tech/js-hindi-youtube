@@ -28,3 +28,20 @@ const myFunction=function(){
 }
 console.log(typeof myFunction)
 console.log(id)
+// ++++++++++++++++++++++++++++++
+// stack(primitive),heap(non primitive)
+let myYoutubename="hiteshchoudharydotcom"
+let anothername=myYoutubename
+anothername="chaiaurcode"
+console.log(anothername)
+let userone={
+    name:"hitesh",
+    age:22
+}
+let usertwo=userone
+usertwo.name="sneha"
+console.log(userone.name);
+console.log(usertwo.name);
+
+
+
